@@ -12,73 +12,66 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 
-<body >
-<section >
+<body>
+    <section>
 
 
-    <div class="container" id="Body"> 
-        <div class="row">
-            <div class="col-sm mt-5">
-                <div class="container text-center myDiv">
-                    <h1>Hey User this is my site</h1>
-                    <h5 class="mt-3">Please Signup For Creating Your Account</h5>
-                    <button class="btn btn-danger mt-3" data-toggle="modal" data-target="#exampleModal">Signup
-                        Here</button>
+        <div class="container" id="Body">
+            <div class="row">
+                <div class="col-sm mt-5">
+                    <div class="container text-center myDiv">
+                        <h1>Hey User this is my site</h1>
+                        <h5 class="mt-3">Please Signup For Creating Your Account</h5>
+                        <button class="btn btn-danger mt-3" data-toggle="modal" data-target="#exampleModal">Signup
+                            Here</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">User Details</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form class="form-group " >
-                        <fieldset class="border p-2 ">
-                            <legend class="float-none w-auto">Create Your Account</legend>
-                            <label for="fname">First name:</label>
-                            <input type="text" class="form-control " id="inp1" name="fname" required>
-                            <label for="lname">Last name:</label>
-                            <input type="text" class="form-control" id="inp2"   name="lname" required>
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control"  id="inp3"  name="email" required>
-                            <label for="password">Password:</label>
-                            <input type="password" class="form-control" id="pass"  name="password" required>
-                            <button class="btn btn-danger mt-1" onclick="showPass(this)">Show Pass</button>
-                            
-                          
-                        </fieldset>
-                        <button class="btn btn-dark mt-2" onclick="login()" id="btn">Submit</button>
-                    </form>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
-
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">User Details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-group ">
+                            <fieldset class="border p-2 ">
+                                <legend class="float-none w-auto">Create Your Account</legend>
+                                <label for="fname">First name:</label>
+                                <input type="text" class="form-control " id="inp1" name="fname" required>
+                                <label for="lname">Last name:</label>
+                                <input type="text" class="form-control" id="inp2" name="lname" required>
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="inp3" name="email" required>
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" id="pass" name="password" required>
+                                <button class="btn btn-danger mt-1" onclick="showPass(this)">Show Pass</button>
+                            </fieldset>
+                            <button class="btn btn-dark mt-2" onclick="login()" id="btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <div class="container mt-5">
+        <section id="logedin" class="H1">
+
+        </section>
+        <section id="result">
+
+        </section>
     </div>
-
-
-</section>
-
-<div class="container mt-5">
-    <section id="logedin" class="H1">
-
-    </section>
-    <section id="result">
-
-    </section>
-</div>
 
 
 
