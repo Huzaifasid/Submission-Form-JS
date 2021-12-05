@@ -2,7 +2,7 @@
     color: white;
 }
 body{
-    background-image: linear-gradient(to right, rgb(72, 255, 0)  ,rgb(224, 41, 224));
+    background-image: linear-gradient(to right, rgb(34, 88, 12)  ,rgb(0, 0, 0));
     
 }
 .myDiv{
@@ -10,7 +10,7 @@ body{
 }
 
 .cont{
-    color: rgb(7, 7, 5);
+    color: rgb(255, 255, 29);
     margin-top: 50px;
     text-transform:uppercase;
 }

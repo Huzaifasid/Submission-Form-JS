@@ -26,6 +26,7 @@ function login() {
 
 function showPass(e) {
     var pass = document.getElementById("pass");
+
     if (pass.type == "text") {
         pass.type = "password"
         e.innerHTML = "Show PASS"
