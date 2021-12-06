@@ -1,16 +1,6 @@
-.H1{
-    color: white;
-}
-body{
-    background-image: linear-gradient(to right, rgb(34, 88, 12)  ,rgb(0, 0, 0));
-    
-}
-.myDiv{
-    color: rgb(243, 243, 243);
-}
 
 .cont{
-    color: rgb(255, 255, 29);
+    color: rgb(255, 29, 29);
     margin-top: 50px;
     text-transform:uppercase;
 }

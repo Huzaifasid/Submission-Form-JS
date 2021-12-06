@@ -29,9 +29,33 @@ function showPass(e) {
 
     if (pass.type == "text") {
         pass.type = "password"
-        e.innerHTML = "Show PASS"
+        e.innerHTML ="<i class='far fa-eye'></i>"
     } else {
         pass.type = "text"
-        e.innerHTML = "Hide PASS"
+        e.innerHTML = "<i class='fas fa-eye-slash'></i>"
+    }
+}
+
+function enablebtn(e){
+    var body = document.childNodes[1].children[1]
+    var modalH = document.getElementById("modalHead");
+    var modalB = document.getElementById("modalBody");
+    var modalF = document.getElementById("modalFoot");
+    if (e.className == "fas fa-toggle-off") {
+        body.style.backgroundColor = "#202124";
+        modalH.style.backgroundColor = "#202124"
+        modalB.style.backgroundColor = "#202124"
+        modalF.style.backgroundColor = "#202124"
+        // modal.style.Color = "white"
+        body.style.color = "white"
+        e.className = "fas fa-toggle-on"
+    } else {
+        e.className = "fas fa-toggle-off"
+        body.style.backgroundColor = "white"
+        modalH.style.backgroundColor = "white"
+        modalB.style.backgroundColor = "white"
+        modalF.style.backgroundColor = "white"
+        body.style.color = "black"
+
     }
 }
